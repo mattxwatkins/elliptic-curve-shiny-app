@@ -83,21 +83,19 @@ pointAdd <- function(P, Q, a, p) {
 
 # UI code
 ui <- fluidPage(
-  theme = shinytheme("cerulean"),
+  theme = shinytheme("superhero"),
   titlePanel("Elliptic Curve Point Generator"),
   tags$head(
     tags$style(HTML("
       body {
-        background-color: #f5f5f5;
+        padding: 2%;
       }
       .shiny-input-panel {
-        background-color: #fff;
         padding: 20px;
         border-radius: 5px;
       }
       #ellipticCurvePlot {
         border: 1px solid #ddd;
-        background-color: #fff;
       }
       .btn {
         margin-top: 10px;
